@@ -12,8 +12,8 @@
 
 	<meta name="description" content="<fmt:message key="meta.description"/>"/>
 	<meta name="keywords" content="sites, web, desenvolvimento, development, java, opensource"/>
-	<title>VRaptor - MyDvds</title>
-	<link href="<c:url value="/mydvds.css"/>" rel="stylesheet" type="text/css" media="screen" />
+	<title>JobManager</title>
+	<!--  <link href="<c:url value="/mydvds.css"/>" rel="stylesheet" type="text/css" media="screen" /> -->
     <!--[if lt IE 7]>
     <script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
     <![endif]-->
@@ -24,11 +24,7 @@
 	</c:if>
 	<div id="headerWrap">
     	<div id="headerContent">
-        	<h1 id="logoVraptor"><span>V|Raptor</span></h1><!-- vraptorlogo-->
-            <ul id="langMenu">
-            	<li><a id="engBtn" href="?language=en"><span>ENGLISH</span></a></li>
-                <li><a id="ptBtn" href="?language=pt_BR"><span>PORTUGUÊS</span></a></li>
-            </ul><!-- langMenu-->
+        	<h1 id="logoVraptor"><span>JobManager</span></h1><!-- vraptorlogo-->
         </div><!-- header content -->
     </div><!-- header wrap-->
     <c:set var="path"><c:url value="/"/></c:set>
