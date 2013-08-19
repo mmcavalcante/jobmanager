@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package br.com.caelum.vraptor.mydvds.controller;
+package br.com.jobmanager.controller;
 
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
@@ -28,12 +28,12 @@ import br.com.caelum.vraptor.Resource;
 import br.com.caelum.vraptor.Result;
 import br.com.caelum.vraptor.Validator;
 import br.com.caelum.vraptor.ioc.ComponentFactory;
-import br.com.caelum.vraptor.mydvds.dao.DefaultUserDao;
-import br.com.caelum.vraptor.mydvds.dao.UserDao;
-import br.com.caelum.vraptor.mydvds.interceptor.Public;
-import br.com.caelum.vraptor.mydvds.interceptor.UserInfo;
-import br.com.caelum.vraptor.mydvds.model.User;
 import br.com.caelum.vraptor.validator.Validations;
+import br.com.jobmanager.dao.DefaultUserDao;
+import br.com.jobmanager.dao.UserDao;
+import br.com.jobmanager.interceptor.Public;
+import br.com.jobmanager.interceptor.UserInfo;
+import br.com.jobmanager.model.User;
 
 /**
  * This class will be responsible to login/logout users.

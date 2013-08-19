@@ -14,11 +14,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package br.com.caelum.vraptor.mydvds.interceptor;
+package br.com.jobmanager.interceptor;
 
 import br.com.caelum.vraptor.ioc.Component;
 import br.com.caelum.vraptor.ioc.SessionScoped;
-import br.com.caelum.vraptor.mydvds.model.User;
+import br.com.jobmanager.model.User;
 
 /**
  * Represents the user logged in the system.

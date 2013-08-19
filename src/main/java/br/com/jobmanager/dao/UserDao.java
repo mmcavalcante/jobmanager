@@ -14,13 +14,13 @@
  * See the License for the specific language governing permissions and 
  * limitations under the License. 
  */
-package br.com.caelum.vraptor.mydvds.dao;
+package br.com.jobmanager.dao;
 
 import java.util.List;
 
 import org.hibernate.HibernateException;
 
-import br.com.caelum.vraptor.mydvds.model.User;
+import br.com.jobmanager.model.User;
 
 /**
  * Data Access Object of User entity.

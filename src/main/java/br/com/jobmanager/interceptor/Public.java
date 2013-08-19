@@ -1,4 +1,4 @@
-package br.com.caelum.vraptor.mydvds.interceptor;
+package br.com.jobmanager.interceptor;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

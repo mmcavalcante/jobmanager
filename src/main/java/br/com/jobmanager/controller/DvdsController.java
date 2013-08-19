@@ -14,9 +14,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package br.com.caelum.vraptor.mydvds.controller;
+package br.com.jobmanager.controller;
 
-import static br.com.caelum.vraptor.mydvds.validation.CustomMatchers.notEmpty;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
 
@@ -29,11 +28,11 @@ import br.com.caelum.vraptor.Resource;
 import br.com.caelum.vraptor.Result;
 import br.com.caelum.vraptor.Validator;
 import br.com.caelum.vraptor.interceptor.multipart.UploadedFile;
-import br.com.caelum.vraptor.mydvds.dao.DvdDao;
-import br.com.caelum.vraptor.mydvds.interceptor.UserInfo;
-import br.com.caelum.vraptor.mydvds.model.Dvd;
-import br.com.caelum.vraptor.mydvds.model.DvdRental;
 import br.com.caelum.vraptor.validator.Validations;
+import br.com.jobmanager.dao.DvdDao;
+import br.com.jobmanager.interceptor.UserInfo;
+import br.com.jobmanager.model.Dvd;
+import br.com.jobmanager.model.DvdRental;
 
 /**
  * The resource <code>DvdController</code> handles all Dvd operations,
@@ -86,9 +85,9 @@ public class DvdsController {
 	public void add(final Dvd dvd, UploadedFile file) {
 	    validator.checking(new Validations() {{
 	    	if (dvd != null) {
-	    		that(dvd.getTitle(), is(notEmpty()), "login", "invalid_title");
+	    		//that(dvd.getTitle(), is(notEmpty()), "login", "invalid_title");
 	    		that(dvd.getType(), is(notNullValue()), "name", "invalid_type");
-	    		that(dvd.getDescription(), is(notEmpty()), "description", "invalid_description");
+	    		//that(dvd.getDescription(), is(notEmpty()), "description", "invalid_description");
 	    		that(dvd.getDescription().length() >= 6, "description", "invalid_description");
 	    	}
 		}});

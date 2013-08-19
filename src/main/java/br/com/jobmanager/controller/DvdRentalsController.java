@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package br.com.caelum.vraptor.mydvds.controller;
+package br.com.jobmanager.controller;
 
 import static org.hamcrest.Matchers.hasItem;
 import static org.hamcrest.Matchers.is;
@@ -24,13 +24,13 @@ import br.com.caelum.vraptor.Put;
 import br.com.caelum.vraptor.Resource;
 import br.com.caelum.vraptor.Result;
 import br.com.caelum.vraptor.Validator;
-import br.com.caelum.vraptor.mydvds.dao.DvdDao;
-import br.com.caelum.vraptor.mydvds.dao.UserDao;
-import br.com.caelum.vraptor.mydvds.interceptor.UserInfo;
-import br.com.caelum.vraptor.mydvds.model.Dvd;
-import br.com.caelum.vraptor.mydvds.model.DvdRental;
-import br.com.caelum.vraptor.mydvds.model.User;
 import br.com.caelum.vraptor.validator.Validations;
+import br.com.jobmanager.dao.DvdDao;
+import br.com.jobmanager.dao.UserDao;
+import br.com.jobmanager.interceptor.UserInfo;
+import br.com.jobmanager.model.Dvd;
+import br.com.jobmanager.model.DvdRental;
+import br.com.jobmanager.model.User;
 
 /**
  * The resource <code>DvdController</code> handles all Dvd operations,

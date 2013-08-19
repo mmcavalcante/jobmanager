@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package br.com.caelum.vraptor.mydvds.dao;
+package br.com.jobmanager.dao;
 
 import java.util.List;
 
@@ -22,8 +22,8 @@ import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 
 import br.com.caelum.vraptor.ioc.Component;
-import br.com.caelum.vraptor.mydvds.model.Dvd;
-import br.com.caelum.vraptor.mydvds.model.DvdRental;
+import br.com.jobmanager.model.Dvd;
+import br.com.jobmanager.model.DvdRental;
 
 /**
  * Default implementation for DvdDao.

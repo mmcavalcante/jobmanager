@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package br.com.caelum.vraptor.mydvds.dao;
+package br.com.jobmanager.dao;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 
 import br.com.caelum.vraptor.ioc.Component;
-import br.com.caelum.vraptor.mydvds.model.User;
+import br.com.jobmanager.model.User;
 
 /**
  * Default implementation for UserDao

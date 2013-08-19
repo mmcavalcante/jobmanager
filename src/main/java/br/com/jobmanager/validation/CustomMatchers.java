@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and 
  * limitations under the License. 
  */
-package br.com.caelum.vraptor.mydvds.validation;
+package br.com.jobmanager.validation;
 
 import org.hamcrest.Description;
 import org.hamcrest.TypeSafeMatcher;
