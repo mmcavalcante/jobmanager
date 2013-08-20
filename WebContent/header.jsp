@@ -38,6 +38,7 @@
 	    	<ul id="menuElementsEn">
 	        	<li><a href="${path }"><span>home</span></a></li>
 			    <c:if test="${not empty userInfo.user}">
+			    	<li><a href="<c:url value="/sistema"/>"><fmt:message key="menu_sistema"/></a></li>
 			    	<li><a href="<c:url value="/users"/>"><fmt:message key="list_users"/></a></li>
 			    	<li><input type="text" name="dvd.title" value="<fmt:message key="search.dvd"/>" 
 			    			onfocus="this.value='';" 

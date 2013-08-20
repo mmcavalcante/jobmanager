@@ -20,6 +20,7 @@
  		<mapping class="br.com.jobmanager.model.Dvd" />
  		<mapping class="br.com.jobmanager.model.DvdRental" />
  		<mapping class="br.com.jobmanager.model.User" />
+		<mapping class="br.com.jobmanager.model.Sistema" />
 
 	</session-factory>
 
