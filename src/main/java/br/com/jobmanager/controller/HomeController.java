@@ -91,7 +91,7 @@ public class HomeController {
 		// "invalid_login_or_password" is the message key from messages.properties,
 		// and that key is used with the fmt taglib in index.jsp, for example: <fmt:message key="error.key">
 		validator.checking(new Validations() {{
-		    that(currentUser, is(notNullValue()), "login", "invalid_login_or_password");
+		    that(currentUser, is(notNullValue()), "login", "login.erro");
 		}});
 		// you can use "this" to redirect to another logic from this controller
 		validator.onErrorUsePageOf(this).login();

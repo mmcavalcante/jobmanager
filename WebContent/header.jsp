@@ -27,11 +27,11 @@
 	<fieldset>
 		<legend>Menu</legend>
 	   	<ul>
-			<li><a href="${path }"><span>home</span></a></li>
+			<li><a href="${path }"><fmt:message key="menu.home"/></a></li>
 			<c:if test="${not empty userInfo.user}">
 				<li><a href="<c:url value="/sistema"/>"><fmt:message key="menu.sistema"/></a></li>
 			    <li><a href="<c:url value="/users"/>"><fmt:message key="menu.usuario"/></a></li>
-			    <li><p>${userInfo.user.name } - <a href="${path }home/logout">Logout</a></p></li>
+			    <li>${userInfo.user.name } - <a href="${path }home/logout">Logout</a></li>
 			</c:if>
 	    </ul>
 	</fieldset>
